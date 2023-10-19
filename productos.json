@@ -1,0 +1,11 @@
+{"productos":
+ [
+   {"linea":"Hombres", "Categoria":"Poleras Hombres", "descripcion":"Camiseta deportiva para hombre Lacoste Pima de algodón manga corta cuello redondo","Color":"Negro" , "Talla":"L", "Marca":"Lacoste", "Precio":"250", "Moneda":"Bs.","url_imagen":"mujeres/01.jpeg"},
+   {"linea":"Hombres", "Categoria":"Poleras Hombres", "descripcion":"Camiseta deportiva para hombre Lacoste Pima de algodón manga corta cuello redondo","Color":"Guindo" , "Talla":"M", "Marca":"Lacoste", "Precio":"250", "Moneda":"Bs.","url_imagen":"mujeres/02.jpeg"},   
+   {"linea":"Hombres", "Categoria":"Poleras Hombres", "descripcion":"Camiseta deportiva para hombre Lacoste Pima de algodón manga corta cuello redondo","Color":"Plomo" , "Talla":"S", "Marca":"Lacoste", "Precio":"250", "Moneda":"Bs.","url_imagen":"mujeres/03.jpeg"},   
+   {"linea":"Hombres", "Categoria":"Poleras Hombres", "descripcion":"Camiseta deportiva para hombre Lacoste Pima de algodón manga corta cuello redondo","Color":"Azul" , "Talla":"L", "Marca":"Lacoste", "Precio":"250", "Moneda":"Bs.","url_imagen":"mujeres/04.jpeg"},   
+   {"linea":"Hombres", "Categoria":"Poleras Hombres", "descripcion":"Camiseta deportiva para hombre Lacoste Pima de algodón manga corta cuello redondo","Color":"Blanco" , "Talla":"L", "Marca":"Lacoste", "Precio":"250", "Moneda":"Bs.","url_imagen":"mujeres/04.jpeg"},   
+   
+ ],
+
+}
