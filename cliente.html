@@ -1,70 +1,189 @@
 <!DOCTYPE html>
 <html lang="es">
+    <style>
+    /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+/* Estilos para la sección de reseñas */
+.reseñas {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para cada reseña */
+.reseña {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.perfil {
+    flex: 1;
+    text-align: center;
+}
+
+.perfil img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.perfil h3 {
+    margin: 5px 0;
+}
+
+.contenido {
+    flex: 3;
+    padding-left: 20px;
+}
+
+.valoracion {
+    font-size: 24px;
+}
+
+.estrella {
+    color: #ffcc00;
+    margin-right: 5px;
+}
+
+/* Estilos para las estrellas de valoración */
+.estrella::before {
+    content: "★";
+}
+    </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestros Clientes</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        .cliente {
-            border: 1px solid #ccc;
-            padding: 10px;
-            border-radius: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Reseñas Positivas</title>
 </head>
 <body>
-    <h1>Nuestros Clientes</h1>
-    <ul>
-        <li>
-            <div class="cliente">
-                <h2>Cliente 1</h2>
-                <p>Información del Cliente 1</p>
+    <header>
+        <h1>Nuestros Clientes</h1>
+    </header>
+    <section class="reseñas">
+        <div class="reseña">
+            <div class="perfil">
+                <img src="/img/customers/perfil1.jpg" alt="Foto de Perfil">
+                <h3>Ana María Portela Ordóñez</h3>
             </div>
-        </li>
-        <li>
-            <div class="cliente">
-                <h2>Cliente 2</h2>
-                <p>Información del Cliente 2</p>
+            <div class="contenido">
+                <div class="valoracion">
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                </div>
+                <p>"Hace unos días hice mi primer pedido en esta tienda y he quedado encantada no sólo con las prendas (dos monos y un conjuntito de chaquetita y pantalón corto), por la calidad de los tejidos y un precio increíble, sino también por la atención al cliente, informándome en todo momento del estado de dicho pedido y remitiéndolo con un empaquetado impecable y que hace que te sientas especial.
+                    Sin duda, son diferentes a otras tiendas en todos los aspectos, lo que los convierte en únicos y muy profesionales, de esos que ya no quedan. Gracias de corazón ♥️"</p>
             </div>
-        </li>
-        <li>
-            <div class="cliente">
-                <h2>Cliente 3</h2>
-                <p>Información del Cliente 3</p>
-            </div>
-        </li>
-        <li>
-          <div class="cliente">
-              <h2>Cliente 4</h2>
-              <p>Información del Cliente 4</p>
-          </div>
-      </li>
-      <li>
-        <div class="cliente">
-            <h2>Cliente 5</h2>
-            <p>Información del Cliente 5</p>
         </div>
-    </li>
-        <!-- Agrega más clientes aquí -->
-    </ul>
+        <div class="reseña">
+            <div class="perfil">
+                <img src="/img/customers/perfil2.jpg" alt="Foto de Perfil">
+                <h3>Yolanda Macias</h3>
+            </div>
+            <div class="contenido">
+                <div class="valoracion">
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                </div>
+                <p>"Vestido drapeado estampado flores
+                    El vestido sienta genial, yo tengo una 38/M y queda precioso, me ha encantado.
+                    Recomiendo esta tienda 100% calidad y precio, el personal super atento, yo siempre compro online, y nunca he tenido problema con el pedido ni con las devoluciones, aunque solo he hecho una devolución, casi un año ya enganchada a los directos online de Facebook.
+                    Gracias siempre por la atención del personal de tienda."</p>
+            </div>
+        </div>
+        <div class="reseña">
+            <div class="perfil">
+                <img src="/img/customers/perfil3.jpg" alt="Foto de Perfil">
+                <h3>G.G.C.</h3>
+            </div>
+            <div class="contenido">
+                <div class="valoracion">
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                </div>
+                <p>"Atención y servicio impecables.Primera compra. Web sencilla y ágil. Atención personalizada a través de WhatsApp (amable y eficaz). Entrega rápida, en 24 horas. Los artículos comprados son como aparecen en las fotos en web. Muy satisfecha, seguro que vuelvo a comprar."</p>
+            </div>
+        </div>
+        <div class="reseña">
+            <div class="perfil">
+                <img src="/img/customers/perfil4.jpg" alt="Foto de Perfil">
+                <h3>PATRICIA FERNÁNDEZ FERNÁNDEZ</h3>
+            </div>
+            <div class="contenido">
+                <div class="valoracion">
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                </div>
+                <p>"Muy contenta con la compra
+                    Todo perfecto, estupenda calidad precio, todos los productos son igual que en la página. Tanto la ropa como el calzado.
+                    Envío super rápido, en 2 días lo tenía en casa.
+                    Lo recomiendo y voy a repetir en mis compras con ellos."</p>
+            </div>
+        </div>
+        <div class="reseña">
+            <div class="perfil">
+                <img src="/img/customers/perfil5.jpg" alt="Foto de Perfil">
+                <h3>A.S.</h3>
+            </div>
+            <div class="contenido">
+                <div class="valoracion">
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                </div>
+                <p>"Lo que mas me gusta de esta tienda es que cada lunes en directo se muestran las novedades por instagram, se ve como queda la ropa puesta, la caída que tiene, el tejido, ideas sobre como llevarlo, las combinaciones… Luego en la web se ven incluso en vídeo las prendas! Atienden muy bien por whatsapp, por ejemplo para saber medidas exactas de una talla en concreto para acertar seguro… en fin, que ninguna otra tienda es tan completa como esta. Comprar por internet de este modo ya supera a ir en persona, actualmoda no solo es actual en la moda, también en la manera de hacer. El trato, las prendas, los directos… todo un 10.."</p>
+            </div>
+        </div>
+        <div class="reseña">
+            <div class="perfil">
+                <img src="/img/customers/perfil6.jpg" alt="Foto de Perfil">
+                <h3>Inés Sánchez Franco</h3>
+            </div>
+            <div class="contenido">
+                <div class="valoracion">
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                </div>
+                <p>"Buenísima calidad en ropa he comprado varias cosas y la verdad es q me encanta el trato con el cliente divino y te aconseja muchísimo en cómo combinar las cosas, vuelvo a comprar muchísimas veces ya que es una tienda q tiene todo lo q me gusta al fin lo encontré :-)."</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
-
