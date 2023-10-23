@@ -5,7 +5,15 @@
    {"linea":"Hombres", "categoria":"Poleras Hombres", "descripcion":"Camiseta deportiva para hombre Lacoste Pima de algodón manga corta cuello redondo","color":"Plomo" , "talla":"S", "marca":"Lacoste", "precio":"250", "moneda":"Bs.","url_imagen":"hombres/03.jpeg"},   
    {"linea":"Hombres", "categoria":"Poleras Hombres", "descripcion":"Camiseta deportiva para hombre Lacoste Pima de algodón manga corta cuello redondo","color":"Azul" , "talla":"L", "marca":"Lacoste", "precio":"250", "moneda":"Bs.","url_imagen":"hombres/04.jpeg"},   
    {"linea":"Hombres", "categoria":"Pantalon Hombres", "descripcion":"Pantalones de mezclilla para hombre Levi's","color":"Azul" , "talla":"42", "marca":"Levis", "precio":"150", "moneda":"Bs.","url_imagen":"hombres/s-l960.jpg"},   
-   {"linea":"Hombres", "categoria":"Pantalon Hombres", "descripcion":"Camisa para hombre","color":"Blanco" , "talla":"16", "marca":"Carolina Herrera", "precio":"120", "moneda":"Bs.","url_imagen":"hombres/s-l1600.jpg"}   
-   
+   {"linea":"Hombres", "categoria":"Camisas Hombres", "descripcion":"Camisa para hombre","color":"Blanco" , "talla":"16", "marca":"Carolina Herrera", "precio":"120", "moneda":"Bs.","url_imagen":"hombres/s-l1600.jpg"},   
+   {"linea":"Ninios", "categoria":"Conjunto", "descripcion":"Luigi","color":"Verde" , "talla":"2años", "marca":"China", "precio":"140", "moneda":"Bs.","url_imagen":"ninios/s-l960.jpg"},
+   {"linea":"Ninios", "categoria":"Conjunto", "descripcion":"Super Mario","color":"Rojo" , "talla":"2años", "marca":"China", "precio":"140", "moneda":"Bs.","url_imagen":"ninios/s-l960r.jpg"},
+   {"linea":"Ninios", "categoria":"Vestidos", "descripcion":"Vestido de Navidad ahumado con muñecos de nieve","color":"Verde" , "talla":"2 años", "marca":"ChildLove", "precio":"130", "moneda":"Bs.","url_imagen":"ninios/s-l1600.jpg"},
+   {"linea":"Ninios", "categoria":"Sudadera", "descripcion":"Sudadera crop top con logos Niña","color":"Rosado" , "talla":"7 años", "marca":"HUGO", "precio":"150", "moneda":"Bs.","url_imagen":"ninios/43285151_x1.jpg"},
+   {"linea":"Ninios", "categoria":"Leggings", "descripcion":"Leggings Niña","color":"Negro" , "talla":"10 años", "marca":"HUGO", "precio":"100", "moneda":"Bs.","url_imagen":"ninios/43285161_x1.jpg"},
+   {"linea":"Ninios", "categoria":"Pantalones", "descripcion":"Jeans recto Niño","color":"Azul" , "talla":"10 años", "marca":"EMPORIO ARMANI", "precio":"100", "moneda":"Bs.","url_imagen":"ninios/43404141_x1.jpg"},
+   {"linea":"Ninios", "categoria":"Leggings", "descripcion":"Leggings Estampado Niña","color":"Rojo" , "talla":"M", "marca":"POLO RALPH LAUREN", "precio":"100", "moneda":"Bs.","url_imagen":"ninios/43390370_x1.jpg"},
+   {"linea":"Ninios", "categoria":"Chamaras", "descripcion":"Chamarra acolchada Niña","color":"Azul Marino" , "talla":"SS", "marca":"TOMMY HILFIGER", "precio":"170", "moneda":"Bs.","url_imagen":"ninios/43324808_x1.jpg"}
+      
  ]
 
